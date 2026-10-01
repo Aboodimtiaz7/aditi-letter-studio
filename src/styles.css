@@ -1,0 +1,42 @@
+:root{font-family:Inter,Segoe UI,Arial,sans-serif;color:#102a43;background:#edf3f7;font-synthesis:none}*{box-sizing:border-box}body{margin:0}.appbar{background:#fff;border-bottom:1px solid #dbe5ec;padding:22px 32px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:5}.brand{font-weight:900;letter-spacing:.15em;color:#063b59}.brand i{font-style:normal;color:#12b8c4;letter-spacing:0}.appbar h1{margin:4px 0 2px;font-size:24px}.appbar p{margin:0;color:#627d98;font-size:13px}.actions{display:flex;gap:10px}button{border:0;border-radius:9px;padding:11px 15px;font:700 13px inherit;cursor:pointer}.primary{background:#0b8190;color:#fff}.ghost{background:#eaf1f5;color:#254b62}.workspace{display:grid;grid-template-columns:420px 1fr;min-height:calc(100vh - 105px)}aside{background:#fff;border-right:1px solid #dbe5ec;padding:26px 28px;overflow:auto}.step{display:flex;gap:10px;align-items:center;font-size:13px;text-transform:uppercase;letter-spacing:.08em}.step b{display:grid;place-items:center;background:#073b59;color:#fff;width:24px;height:24px;border-radius:50%}.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:14px 0 24px}.tabs button{background:#edf3f7;color:#486581}.tabs .active{background:#d9f4f3;color:#086d75;box-shadow:inset 0 0 0 1px #8bd7d4}aside section{border-top:1px solid #e4ebf0;padding-top:17px;margin-top:19px}aside h2{font-size:14px;margin:0 0 13px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.grid label:nth-child(3),.grid label:nth-child(4),.grid label:nth-child(5),.grid label:nth-child(6),.grid label:nth-child(7){grid-column:1/-1}label{display:grid;gap:6px}label span{font-size:11px;font-weight:800;color:#627d98;text-transform:uppercase;letter-spacing:.04em}input{width:100%;border:1px solid #cbd9e2;border-radius:8px;padding:10px 11px;color:#102a43;background:#fbfdfe}.salary-grid label{grid-column:auto!important}.section-title{display:flex;justify-content:space-between}.link{padding:0;background:transparent;color:#07838d}.status{font-size:12px;color:#07838d;margin-top:22px}.preview{padding:26px 30px;overflow:auto}.preview-title{display:flex;justify-content:space-between;max-width:794px;margin:0 auto 12px;color:#627d98;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}.paper-stack{display:grid;gap:24px}.page{width:794px;height:1123px;margin:0 auto;background:#fff;padding:58px 68px 48px;box-shadow:0 8px 30px #526d821f;position:relative;color:#172b3a;font-family:Arial,sans-serif;font-size:14px;line-height:1.55}.letter-head{display:flex;justify-content:space-between;align-items:end;color:#073b59}.letter-head div{font-size:27px;letter-spacing:.18em}.letter-head small{display:block;font-size:8px;letter-spacing:.07em}.letter-head span{font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:#168c96}.rule{height:4px;background:linear-gradient(90deg,#073b59 0 68%,#19b8c2 68%);margin:12px 0 34px}.page h1{text-align:center;text-decoration:underline;text-underline-offset:5px;font-size:19px;margin:22px 0 28px;color:#102a43}.page h2{font-size:14px;margin-top:24px}.page p{margin:0 0 17px;text-align:justify}.page .date{text-align:right}.subject{font-weight:700}.page ol{padding-left:20px}.page li{margin:0 0 7px}.signature{display:flex;justify-content:space-between;align-items:end;margin-top:48px}.signature p{text-align:left}.accept{margin-top:34px;border-top:1px solid #d8e1e7;padding-top:18px}.page footer{position:absolute;bottom:25px;left:68px;right:68px;border-top:1px solid #b8cbd5;padding-top:7px;color:#6b7f8d;font-size:8px;text-align:center}.info,.summary,.salary{border-collapse:collapse;width:100%;margin:22px 0}.info th,.info td,.summary th,.summary td{border:1px solid #b8cbd5;padding:10px;text-align:left}.info th,.summary th{width:35%;background:#e9f3f5;color:#073b59}.salary th,.salary td{border:1px solid #b8cbd5;padding:7px 9px}.salary thead{background:#073b59;color:#fff}.salary th:first-child,.salary td:first-child{text-align:left;width:60%}.salary th:not(:first-child),.salary td:not(:first-child){text-align:right}.salary .total{font-weight:800;background:#e9f3f5}.note{font-size:10px;color:#526d82;background:#f3f7f9;padding:10px}.summary{margin-bottom:28px}@media(max-width:1100px){.workspace{grid-template-columns:360px 1fr}.preview{padding:20px 10px;transform-origin:top left}.page{transform:scale(.82);margin-bottom:-200px}}@media(max-width:800px){.appbar{position:static;padding:18px;align-items:flex-start}.workspace{display:block}.preview{display:none}.grid{grid-template-columns:1fr}.actions{flex-direction:column}aside{padding:20px}}@media print{.appbar,aside,.preview-title{display:none}.workspace{display:block}.preview{padding:0}.paper-stack{gap:0}.page{box-shadow:none;margin:0;page-break-after:always}}
+/* Secure HR access */
+.login-shell{min-height:100vh;display:grid;place-items:center;background:linear-gradient(135deg,#eef8fc,#f7f9ff);padding:24px}
+.login-card{width:min(430px,100%);background:#fff;border:1px solid #d8e5ee;border-radius:20px;padding:36px;box-shadow:0 20px 60px rgba(15,48,79,.14)}
+.login-card h1{margin:18px 0 6px;color:#16396a}
+.login-card>p{color:#63758a;margin:0 0 24px}
+.login-card label{margin-bottom:16px}
+.login-card .primary{width:100%;margin-top:8px}
+.logout-button{border:0;background:transparent;color:#64748b;font-weight:700;cursor:pointer;padding:10px 4px}
+
+/* Admin status and downloads */
+.admin-overlay{position:fixed;inset:0;z-index:100;background:rgba(11,31,53,.55);display:grid;place-items:center;padding:24px}
+.admin-panel{width:min(1080px,96vw);max-height:88vh;overflow:auto;background:#fff;border-radius:20px;padding:28px;box-shadow:0 24px 80px rgba(0,0,0,.25)}
+.admin-panel .section-title{align-items:flex-start}
+.admin-panel .section-title p{margin:5px 0 0;color:#64748b}
+.admin-summary{display:flex;gap:16px;margin:22px 0}
+.admin-summary>div{min-width:150px;background:#eff8fc;border:1px solid #cce5ef;border-radius:14px;padding:16px;display:flex;flex-direction:column}
+.admin-summary b{font-size:28px;color:#153d6b}
+.admin-summary span{color:#617489;font-size:13px}
+.admin-actions{display:flex;justify-content:flex-end;margin-bottom:12px}
+.admin-table-wrap{overflow:auto;border:1px solid #dce6ee;border-radius:14px}
+.admin-table{width:100%;border-collapse:collapse;min-width:760px}
+.admin-table th,.admin-table td{text-align:left;padding:13px 14px;border-bottom:1px solid #e5edf3}
+.admin-table th{background:#f5f9fc;color:#496176;font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.admin-table td{color:#253b4d;font-size:14px}
+.admin-table td small{display:block;color:#74879a;margin-top:3px}
+.admin-empty{text-align:center!important;padding:32px!important;color:#718397!important}
+
+/* Format-preserving wording edits */
+.wording-editor{border:1px solid #cfe2ec;background:#f8fcfe}
+.wording-editor .section-title{align-items:flex-start}
+.wording-editor .section-title p{margin:4px 0 0;color:#65798b;max-width:560px}
+.wording-row{border-top:1px solid #dbe8ef;padding-top:14px;margin-top:14px}
+.wording-row textarea{width:100%;min-height:76px;resize:vertical;border:1px solid #c9d8e2;border-radius:10px;padding:10px 12px;font:inherit;color:#243b4c;background:#fff}
+.wording-row label+label{margin-top:10px}
+.remove-edit{border:0;background:transparent;color:#b54747;font-weight:700;padding:4px 0;cursor:pointer}
+.apply-edits{margin-top:16px;width:100%}
+
+@media(max-width:760px){
+  .admin-summary{display:grid;grid-template-columns:1fr 1fr}
+  .admin-summary>div{min-width:0}
+}
