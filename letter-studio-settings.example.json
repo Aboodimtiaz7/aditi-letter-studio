@@ -1,0 +1,19 @@
+{
+  "publicBaseUrl": "",
+  "emailMode": "outlook",
+  "signingLinkDays": 30,
+  "logins": [
+    {
+      "id": "internal.hr",
+      "password": "replace-with-a-strong-password",
+      "role": "internal",
+      "name": "Internal HR Admin"
+    },
+    {
+      "id": "tod.hr",
+      "password": "replace-with-a-strong-password",
+      "role": "tod",
+      "name": "India ToD Admin"
+    }
+  ]
+}

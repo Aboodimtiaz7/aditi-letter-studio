@@ -1,0 +1,65 @@
+ADITI LETTER STUDIO - COLLEAGUE LAPTOP INSTALLATION
+===================================================
+
+WHAT THE COLLEAGUE NEEDS
+1. Windows 10 or Windows 11.
+2. Microsoft Edge or Google Chrome.
+3. The organisation-approved Node.js LTS version.
+4. Microsoft Excel is optional and is only needed to export and append a separate
+   salary-workbook annexure to an Other Letter.
+5. Microsoft Word is optional and is only needed to save an ODT master as DOCX.
+6. Classic Microsoft Outlook is optional and is needed only for Outlook email sending.
+
+READY-TO-RUN ZIP
+1. Copy the ZIP to the colleague's laptop.
+2. Right-click the ZIP and select Extract All. Do not run the tool from inside the ZIP.
+3. Place the extracted folder in a normal local location, for example:
+   C:\ADITI Letter Studio
+4. Double-click CHECK-LAPTOP-REQUIREMENTS.cmd.
+5. If all required items show READY:
+   - Double-click START-LETTER-STUDIO.cmd.
+
+HR LOGIN ACCESS
+Copy letter-studio-settings.example.json to letter-studio-settings.json, then replace
+every example password with a unique strong password before starting the tool. Never
+commit or share letter-studio-settings.json. Internal HR sees Internal and
+Contractor Appointment letters. India ToD HR sees the three India ToD onboarding
+letters. Experience, IRT, Merit, Custom Letter and Merge Two Letters are shared.
+
+LIGHTWEIGHT ZIP
+The steps are the same, but the first start runs npm install and downloads the
+application dependencies. The laptop therefore needs internet access or access
+to the organisation's approved npm package source.
+
+IMPORTANT OPERATING NOTES
+- Keep the entire extracted folder together. Do not move individual files.
+- Individual Word formats are rendered locally through Edge or Chrome; Word is not opened
+  in the background.
+- Bulk and Merit Excel files are read directly by the tool; Excel does not open.
+- India ToD Intent, Appointment and Joining Bonus official formats are included.
+- India ToD salary annexures use the included approved contractor workbook formulas.
+- The Merge Two Letters option combines two existing PDFs without changing their pages.
+- Status & Downloads shows signing requests created by the current HR login and
+  downloads either the sent copy or the completed signed copy.
+- Edit Letter Wording replaces exact approved wording while preserving the inherited
+  formatting. Generate a preview, paste the exact original sentence, add the approved
+  replacement, and regenerate the preview.
+- If an Other Letter appends a separate workbook-exported salary annexure, close an
+  old hidden or unresponsive Excel session first.
+- The application opens at http://127.0.0.1:5180 and is local to that laptop.
+- Generated and signing records stay on that laptop under the data and output folders.
+- The supplied ZIP contains no employee signing records or generated employee files.
+- If Windows or security software blocks the tool, ask IT to approve the extracted
+  folder and Node.js. Do not bypass organisation security controls.
+
+EMAIL AND EMPLOYEE SIGNING
+Local preview, PDF download, and local signing tests work on the colleague's laptop.
+For an employee on another computer to open the signing link, IT must host the tool
+behind an organisation-approved HTTPS address and put that address in
+letter-studio-settings.json as publicBaseUrl.
+
+An email address is not a publicBaseUrl.
+
+HELP
+First run CHECK-LAPTOP-REQUIREMENTS.cmd. If a required item is MISSING, provide the
+result to the IT support team.

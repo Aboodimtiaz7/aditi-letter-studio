@@ -1,0 +1,7 @@
+ADITI Letter Studio
+Package date: 28 July 2026
+Includes: Main Letter Studio plus India ToD onboarding in one tool
+Letters: Internal Appointment, Contractor Appointment, Relieving & Experience, IRT, India ToD Intent, India ToD Appointment, India ToD Joining Bonus, Merit Increment, Other Letter, and Merge Two Letters
+Update: Added editable notice periods, official India ToD ODT masters, exact ToD contractor salary formulas and annexure, richer custom-letter placeholders, and two-PDF letter merging. Bulk Excel now includes India ToD and notice-period fields.
+Access update: Separate Internal HR and India ToD HR logins, role-restricted letter choices and APIs, signing-status dashboard, sent/signed document downloads, and format-preserving wording edits during PDF review.
+QA: Both logins and access restrictions verified; Internal wording edit generated a complete 13-page PDF with the approved replacement and preserved formatting.

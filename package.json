@@ -1,0 +1,25 @@
+{
+  "name": "aditi-letter-generation-tool",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5180",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4180",
+    "server": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "docx-preview": "^0.3.6",
+    "express": "^4.21.2",
+    "nodemailer": "^9.0.3",
+    "pdf-lib": "^1.17.1",
+    "playwright-core": "^1.54.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "vite": "^6.0.0",
+    "xlsx": "^0.18.5"
+  }
+}
